@@ -11,6 +11,7 @@ export const polishCultureData: CultureItem[] = [
     category: 'Klasyka Kina Polskiego',
     director: 'Sylwester Chęciński',
     description: 'Kultowa komedia o wojnie polsko-polskiej',
+    trivia: 'Film obejrzało w kinach ponad 15 milionów widzów! Scena z koniem w studni była improwizacją. Wacław Kowalski (Kargul) i Władysław Hańcza (Pawlak) nie lubili się w życiu prywatnym.',
     decade: '1960s'
   },
   {
@@ -31,6 +32,7 @@ export const polishCultureData: CultureItem[] = [
     category: 'Klasyka Kina Polskiego',
     director: 'Juliusz Machulski',
     description: 'Science-fiction komedia o świecie bez mężczyzn',
+    trivia: 'Najbardziej kasowy polski film wszech czasów - 13 mln widzów! Jerzy Stuhr i Olgierd Łukaszewicz improwizowali większość dialogów. Machulski ukończył film w zaledwie 28 dni zdjęciowych.',
     decade: '1980s'
   },
   {
@@ -41,6 +43,7 @@ export const polishCultureData: CultureItem[] = [
     category: 'Klasyka Kina Polskiego',
     director: 'Marek Piwowski',
     description: 'Surrealistyczna komedia na statku wycieczkowym',
+    trivia: 'Film powstał jako quasi-dokument z obserwacji prawdziwego rejsu. Większość aktorów to amatorzy, których Piwowski spotkał na statku. Cenzura początkowo zakazała emisji filmu.',
     decade: '1970s'
   },
   {
@@ -91,6 +94,7 @@ export const polishCultureData: CultureItem[] = [
     category: 'Kino Współczesne',
     director: 'Paweł Pawlikowski',
     description: 'Czarno-biały dramat, laureat Oscara',
+    trivia: 'Pierwszy polski film z Oscarem za najlepszy film nieanglojęzyczny! Pawlikowski celowo użył formatu 4:3 i czarno-białej fotografii, by oddać klimat lat 60. Film kręcono w Łodzi i okolicach.',
     decade: '2010s'
   },
   {
@@ -141,6 +145,7 @@ export const polishCultureData: CultureItem[] = [
     category: 'Klasyka Kina Polskiego',
     director: 'Stanisław Bareja',
     description: 'Satyra na PRL i aparatczyków',
+    trivia: 'Kulty "miodku malutki" pochodzi właśnie stąd! Bareja ukrywał satyry na komunizm w komedii. Film był zakazany w telewizji aż do 1987 roku. Stanisław Tym improwizował wiele scen.',
     decade: '1980s'
   },
   {
@@ -163,6 +168,7 @@ export const polishCultureData: CultureItem[] = [
     category: 'Polski Rock',
     artist: 'Perfect',
     description: 'Kultowy album z "Nie płacz Ewą"',
+    trivia: 'Album sprzedał się w nakładzie ponad miliona egzemplarzy! "Nie płacz Ewą" to jedna z najczęściej coverowanych polskich piosenek. Zbigniew Hołdys napisał ten utwór mając zaledwie 22 lata.',
     decade: '1980s'
   },
   {
@@ -193,6 +199,7 @@ export const polishCultureData: CultureItem[] = [
     category: 'Polski Rock',
     artist: 'Maanam',
     description: 'Kultowa piosenka Kory i Maanamu',
+    trivia: 'Był to przebój, który rozpoczął karierę Maanamu! Kora początkowo śpiewała w zespole jako hobby - była absolwentką ASP. Marek Jackowski komponował muzykę, inspirując się brzmieniem Talking Heads.',
     decade: '1980s'
   },
   {
@@ -203,6 +210,7 @@ export const polishCultureData: CultureItem[] = [
     category: 'Polski Rock',
     artist: 'Dżem',
     description: 'Ballada rockowa Ryszarda Riedla',
+    trivia: 'Ryszard Riedel napisał ten utwór w zaledwie 15 minut! Piosenka została nagrana jednym ujęciem. Wokalista Dżemu często improwizował podczas koncertów, więc żadna wersja nie brzmiała tak samo.',
     decade: '1980s'
   },
   {
@@ -223,6 +231,7 @@ export const polishCultureData: CultureItem[] = [
     category: 'Polski Pop',
     artist: 'Dawid Podsiadło',
     description: 'Jeden z najpopularniejszych polskich albumów',
+    trivia: 'Album pobił wszelkie rekordy streamingu w Polsce! Koncerty wyprzedawały się w kilka minut. Podsiadło sam produkuje swoją muzykę w domowym studio. "Let You Down" miał premierę o północy i od razu stał się viralem.',
     decade: '2010s'
   },
   {
@@ -315,6 +324,7 @@ export const polishCultureData: CultureItem[] = [
     category: 'Seriale Kultowe',
     director: 'Jerzy Gruza',
     description: 'Kultowy serial o Stefanie Karwowskim',
+    trivia: 'Serial oglądało 80% Polaków przy telewizorach! Bronisław Pawlik napisał ponad 200 utworów do serialu. Powstały 3 sezony: o 20-latku, 40-latku i 60-latku rozciągające się na 27 lat!',
     decade: '1970s'
   },
   {
@@ -325,6 +335,7 @@ export const polishCultureData: CultureItem[] = [
     category: 'Seriale Kultowe',
     director: 'Stanisław Bareja',
     description: 'Satyra na PRL i życie w bloku',
+    trivia: 'Bareja ukrywał w serialu brutalne satyry na realia PRL. Zdjęcia kręcono w prawdziwym bloku przy ul. Filtrowej. Serial został wycofany z anteny po zamachu stanu - uznano go za "podżegający".',
     decade: '1980s'
   },
   {

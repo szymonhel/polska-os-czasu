@@ -13,6 +13,7 @@ export interface CultureItem {
   artist?: string;
   director?: string;
   description?: string;
+  trivia?: string;
   imageUrl?: string;
   decade: Decade;
 }

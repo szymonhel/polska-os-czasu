@@ -41,49 +41,61 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({
             {placedItems.map((placed, index) => (
               <div
                 key={index}
-                className="flex items-center justify-between p-4 bg-gray-800 rounded-lg"
+                className="p-4 bg-gray-800 rounded-lg space-y-3"
               >
-                <div className="flex-1">
-                  <div className="font-medium">{placed.item.title}</div>
-                  <div className="text-sm text-gray-400">
-                    {placed.item.artist || placed.item.director}
+                <div className="flex items-center justify-between">
+                  <div className="flex-1">
+                    <div className="font-medium">{placed.item.title}</div>
+                    <div className="text-sm text-gray-400">
+                      {placed.item.artist || placed.item.director}
+                    </div>
+                  </div>
+                  <div className="text-center px-4">
+                    <div className="text-2xl font-bold">
+                      {placed.item.year}
+                    </div>
+                    <div className="text-xs text-gray-500">prawdziwy rok</div>
+                  </div>
+                  <div className="text-center px-4">
+                    <div className="text-xl text-gray-400">
+                      {placed.guessedYear}
+                    </div>
+                    <div className="text-xs text-gray-500">twoja odpowiedź</div>
+                  </div>
+                  <div className="text-center px-4">
+                    <div className={`text-2xl font-bold ${
+                      placed.yearDifference === 0
+                        ? 'text-green-400'
+                        : placed.yearDifference <= 2
+                        ? 'text-yellow-400'
+                        : 'text-red-400'
+                    }`}>
+                      {placed.points}
+                    </div>
+                    <div className="text-xs text-gray-500">punktów</div>
+                  </div>
+                  <div className="text-center px-4 w-24">
+                    {placed.yearDifference === 0 ? (
+                      <span className="text-2xl">🎯</span>
+                    ) : placed.yearDifference === 1 ? (
+                      <span className="text-2xl">🔥</span>
+                    ) : placed.yearDifference <= 3 ? (
+                      <span className="text-2xl">👍</span>
+                    ) : (
+                      <span className="text-2xl">📚</span>
+                    )}
                   </div>
                 </div>
-                <div className="text-center px-4">
-                  <div className="text-2xl font-bold">
-                    {placed.item.year}
+                {placed.item.trivia && (
+                  <div className="pt-2 border-t border-gray-700">
+                    <div className="flex gap-2 text-xs">
+                      <span>💡</span>
+                      <p className="text-gray-400 leading-relaxed">
+                        {placed.item.trivia}
+                      </p>
+                    </div>
                   </div>
-                  <div className="text-xs text-gray-500">prawdziwy rok</div>
-                </div>
-                <div className="text-center px-4">
-                  <div className="text-xl text-gray-400">
-                    {placed.guessedYear}
-                  </div>
-                  <div className="text-xs text-gray-500">twoja odpowiedź</div>
-                </div>
-                <div className="text-center px-4">
-                  <div className={`text-2xl font-bold ${
-                    placed.yearDifference === 0
-                      ? 'text-green-400'
-                      : placed.yearDifference <= 2
-                      ? 'text-yellow-400'
-                      : 'text-red-400'
-                  }`}>
-                    {placed.points}
-                  </div>
-                  <div className="text-xs text-gray-500">punktów</div>
-                </div>
-                <div className="text-center px-4 w-24">
-                  {placed.yearDifference === 0 ? (
-                    <span className="text-2xl">🎯</span>
-                  ) : placed.yearDifference === 1 ? (
-                    <span className="text-2xl">🔥</span>
-                  ) : placed.yearDifference <= 3 ? (
-                    <span className="text-2xl">👍</span>
-                  ) : (
-                    <span className="text-2xl">📚</span>
-                  )}
-                </div>
+                )}
               </div>
             ))}
           </div>

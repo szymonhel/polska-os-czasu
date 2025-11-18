@@ -60,6 +60,21 @@ export const Timeline: React.FC<TimelineProps> = ({
           {currentItem.description && (
             <p className="text-sm text-gray-400 mt-2">{currentItem.description}</p>
           )}
+          {currentItem.trivia && (
+            <div className="mt-4 p-4 bg-purple-900/20 border border-purple-500/30 rounded-lg">
+              <div className="flex items-start gap-2">
+                <span className="text-xl">💡</span>
+                <div>
+                  <p className="text-xs text-purple-300 font-semibold uppercase tracking-wide mb-1">
+                    Ciekawostka
+                  </p>
+                  <p className="text-sm text-gray-300 leading-relaxed">
+                    {currentItem.trivia}
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       )}
 
