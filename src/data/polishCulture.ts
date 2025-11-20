@@ -169,6 +169,8 @@ export const polishCultureData: CultureItem[] = [
     artist: 'Perfect',
     description: 'Kultowy album z "Nie płacz Ewą"',
     trivia: 'Album sprzedał się w nakładzie ponad miliona egzemplarzy! "Nie płacz Ewą" to jedna z najczęściej coverowanych polskich piosenek. Zbigniew Hołdys napisał ten utwór mając zaledwie 22 lata.',
+    spotifyUrl: 'https://open.spotify.com/album/3pKlDXlb6AvJJHJJzYEYCZ',
+    youtubeUrl: 'https://www.youtube.com/watch?v=REiAXkIU9D0',
     decade: '1980s'
   },
   {
@@ -179,6 +181,8 @@ export const polishCultureData: CultureItem[] = [
     category: 'Polski Rock',
     artist: 'Republika',
     description: 'Jeden z najbardziej rozpoznawalnych utworów polskiego rocka',
+    spotifyUrl: 'https://open.spotify.com/track/1bLWKbCHVgQzYzYJgQhLu8',
+    youtubeUrl: 'https://www.youtube.com/watch?v=86_s16dxsOY',
     decade: '1980s'
   },
   {
@@ -189,6 +193,8 @@ export const polishCultureData: CultureItem[] = [
     category: 'Klasyka Polska',
     artist: 'Czesław Niemen',
     description: 'Ikoniczny utwór o stolicy',
+    spotifyUrl: 'https://open.spotify.com/track/4fqVDC3OxVVvqHdLSKQPSX',
+    youtubeUrl: 'https://www.youtube.com/watch?v=j0bLQ-X3iXE',
     decade: '1960s'
   },
   {
@@ -200,6 +206,8 @@ export const polishCultureData: CultureItem[] = [
     artist: 'Maanam',
     description: 'Kultowa piosenka Kory i Maanamu',
     trivia: 'Był to przebój, który rozpoczął karierę Maanamu! Kora początkowo śpiewała w zespole jako hobby - była absolwentką ASP. Marek Jackowski komponował muzykę, inspirując się brzmieniem Talking Heads.',
+    spotifyUrl: 'https://open.spotify.com/track/0bxEjLkJhOEXxZN3HqYvhN',
+    youtubeUrl: 'https://www.youtube.com/watch?v=CGAQh46XX4w',
     decade: '1980s'
   },
   {
@@ -211,6 +219,8 @@ export const polishCultureData: CultureItem[] = [
     artist: 'Dżem',
     description: 'Ballada rockowa Ryszarda Riedla',
     trivia: 'Ryszard Riedel napisał ten utwór w zaledwie 15 minut! Piosenka została nagrana jednym ujęciem. Wokalista Dżemu często improwizował podczas koncertów, więc żadna wersja nie brzmiała tak samo.',
+    spotifyUrl: 'https://open.spotify.com/track/1wLfYKCcShYLZzZvAGL1iX',
+    youtubeUrl: 'https://www.youtube.com/watch?v=HKQHXh-LqTA',
     decade: '1980s'
   },
   {
@@ -221,6 +231,8 @@ export const polishCultureData: CultureItem[] = [
     category: 'Polski Pop',
     artist: 'Artur Andrus',
     description: 'Utwór do filmu "List do M."',
+    spotifyUrl: 'https://open.spotify.com/track/5q4tUKJMJMCqQ1GKz1WvDK',
+    youtubeUrl: 'https://www.youtube.com/watch?v=A9Tp6wnXNXI',
     decade: '2010s'
   },
   {
@@ -232,6 +244,8 @@ export const polishCultureData: CultureItem[] = [
     artist: 'Dawid Podsiadło',
     description: 'Jeden z najpopularniejszych polskich albumów',
     trivia: 'Album pobił wszelkie rekordy streamingu w Polsce! Koncerty wyprzedawały się w kilka minut. Podsiadło sam produkuje swoją muzykę w domowym studio. "Let You Down" miał premierę o północy i od razu stał się viralem.',
+    spotifyUrl: 'https://open.spotify.com/album/5eP2hEUnbQYZuI3Z0RIwN6',
+    youtubeUrl: 'https://www.youtube.com/watch?v=sRYzwF_wVCQ',
     decade: '2010s'
   },
   {
@@ -242,6 +256,8 @@ export const polishCultureData: CultureItem[] = [
     category: 'Polski Rock',
     artist: 'TSA',
     description: 'Hard rockowy hit TSA',
+    spotifyUrl: 'https://open.spotify.com/track/2S9W1QNnpSLwdOjYFY0VtR',
+    youtubeUrl: 'https://www.youtube.com/watch?v=kgfLsm6sMsE',
     decade: '1980s'
   },
   {
@@ -252,6 +268,8 @@ export const polishCultureData: CultureItem[] = [
     category: 'Polski Rock',
     artist: 'Kasia Nosowska (Hey)',
     description: 'Przebój zespołu Hey',
+    spotifyUrl: 'https://open.spotify.com/track/2aHB1fFPF2bRXrfQcGqXqr',
+    youtubeUrl: 'https://www.youtube.com/watch?v=B2ZlXjAXUng',
     decade: '1990s'
   },
   {
@@ -262,6 +280,8 @@ export const polishCultureData: CultureItem[] = [
     category: 'Alternatywa',
     artist: 'Kult',
     description: 'Album z kultowym "Arahją"',
+    spotifyUrl: 'https://open.spotify.com/album/3jNYYQ5LYPczWjhpKzJqnr',
+    youtubeUrl: 'https://www.youtube.com/watch?v=nweMTMQo0O4',
     decade: '1990s'
   },
   {
@@ -272,6 +292,8 @@ export const polishCultureData: CultureItem[] = [
     category: 'Polski Pop',
     artist: 'Dawid Podsiadło',
     description: 'Debiutancki album zwycięzcy X Factor',
+    spotifyUrl: 'https://open.spotify.com/album/3WgJdUfAECDYxXB0D0bqn9',
+    youtubeUrl: 'https://www.youtube.com/watch?v=qJY47KI9P20',
     decade: '2010s'
   },
   {
@@ -282,6 +304,8 @@ export const polishCultureData: CultureItem[] = [
     category: 'Klasyka Polska',
     artist: 'Niebiesko-Czarni',
     description: 'Kultowy przebój lat 60.',
+    spotifyUrl: 'https://open.spotify.com/track/6QRZcWvhvqpKnWjTq7yDhv',
+    youtubeUrl: 'https://www.youtube.com/watch?v=vBj4N_Rd9F0',
     decade: '1960s'
   },
   {
@@ -292,6 +316,8 @@ export const polishCultureData: CultureItem[] = [
     category: 'Polski Rock',
     artist: 'Maanam',
     description: 'Hymn okresu transformacji',
+    spotifyUrl: 'https://open.spotify.com/track/63u9WHqC4IrbnhYPqjXMX8',
+    youtubeUrl: 'https://www.youtube.com/watch?v=QVcY8BqjlaQ',
     decade: '1990s'
   },
   {
@@ -302,6 +328,8 @@ export const polishCultureData: CultureItem[] = [
     category: 'Alternatywa',
     artist: 'Myslovitz',
     description: 'Kultowy singiel Myslovitz',
+    spotifyUrl: 'https://open.spotify.com/track/5h6FKE1LdAXGGLYk0jDECb',
+    youtubeUrl: 'https://www.youtube.com/watch?v=_5IhKKvOh7w',
     decade: '1990s'
   },
   {
@@ -312,6 +340,8 @@ export const polishCultureData: CultureItem[] = [
     category: 'Polski Hip-Hop',
     artist: 'Taco Hemingway',
     description: 'Przebój polskiego rapu',
+    spotifyUrl: 'https://open.spotify.com/track/6zeeWid2sgw4lap2LV6KTT',
+    youtubeUrl: 'https://www.youtube.com/watch?v=IcjSDZNbMs0',
     decade: '2010s'
   },
 
@@ -425,6 +455,8 @@ export const polishCultureData: CultureItem[] = [
     category: 'Polski Rock',
     artist: 'Bajm',
     description: 'Jeden z największych hitów Bajmu',
+    spotifyUrl: 'https://open.spotify.com/track/3pLJAnFDSY5sU4Y0vD2WTY',
+    youtubeUrl: 'https://www.youtube.com/watch?v=MNcnMWIvvPE',
     decade: '1980s'
   },
   {
@@ -435,6 +467,8 @@ export const polishCultureData: CultureItem[] = [
     category: 'Alternatywa',
     artist: 'Obywatel G.C.',
     description: 'Kultowy utwór o polskiej rzeczywistości',
+    spotifyUrl: 'https://open.spotify.com/track/5MzvK8qBgfOzN8TW2vE8KR',
+    youtubeUrl: 'https://www.youtube.com/watch?v=Bh24U9cMIhA',
     decade: '1990s'
   },
   {
@@ -465,6 +499,8 @@ export const polishCultureData: CultureItem[] = [
     category: 'Polski Rock',
     artist: 'Myslovitz',
     description: 'Album Myslovitz nominowany do MTV Europe Music Awards',
+    spotifyUrl: 'https://open.spotify.com/album/4BW7F9tCiVSuYYZtfVYZ4n',
+    youtubeUrl: 'https://www.youtube.com/watch?v=9sYRDLH6uVY',
     decade: '2000s'
   },
 ];

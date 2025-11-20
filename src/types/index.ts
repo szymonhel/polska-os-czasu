@@ -15,6 +15,8 @@ export interface CultureItem {
   description?: string;
   trivia?: string;
   imageUrl?: string;
+  spotifyUrl?: string;
+  youtubeUrl?: string;
   decade: Decade;
 }
 
